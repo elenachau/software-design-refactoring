@@ -5,7 +5,7 @@ from dataclasses import dataclass
 class User:
     first_name: str
     last_name: str
-    role: str # role is constrained value, use enum instead; avoid broad types
+    role: str # role should be a constrained value, use enum instead; avoid broad types
 
 
 def main():
